@@ -1,6 +1,20 @@
+
 # GitSearch
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.5.
+#Developer
+David Ngatia
+
+#### {this is a Triangle Tracker},{10th August 2018}
+#### By **{David Ngatia}**
+## Description
+{this app allows a user to search github repos by entering their name on the search button}
+## Behavior Driven Development
+* If you type a name in the search bar, all the repos with that same name will be displayed.
+## Technologies Used
+{I used Angular, Terminal and Visual Studio.}
+## Support and contact details
+{ Any issues or questions, ideas or concerns,or a contribution to the code. feel free to contact me through my email address; machngatia@gmail.com}
 
 ## Development server
 
@@ -25,3 +39,5 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### License
+Copyright (c)Copyright {2018} **{David Ngatia}**
