@@ -8,18 +8,19 @@ David Ngatia
 #### {this is a Triangle Tracker},{10th August 2018}
 #### By **{David Ngatia}**
 ## Description
-{this app allows a user to search github repos by entering their name on the search button}
+This is a website where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories
 ## Behavior Driven Development
 * If you type a name in the search bar, all the repos with that same name will be displayed.
 ## Technologies Used
-{I used Angular, Terminal and Visual Studio.}
+{I used Angular CLI, Terminal and Visual Studio.}
 ## Support and contact details
 { Any issues or questions, ideas or concerns,or a contribution to the code. feel free to contact me through my email address; machngatia@gmail.com}
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
+##Github link
+https://github.com/davidngatia/git-search.git
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
