@@ -3,18 +3,18 @@ import{ProfileService} from '../services/profile.service';
 @Component({
   selector: 'app-profile',
   templateUrl: './profile.component.html',
-  styleUrls: ['./profile.component.css']
+  styleUrls: ['./profile.component.css'],
 })
 export class ProfileComponent implements OnInit {
 profile:any[];
 repos: any[];
 
-  constructor(private profileService) {
+  constructor(private profileService:ProfileService) {
     this.profileService.getProfileInfo().subscribe(profile =>{
       console.log(profile);
       this.profile = profile;
     });
-    this.profileService.getProfileRepos().subscribe(repos =>{
+    this.profileService.getProfileRepo().subscribe(repos =>{
       console.log(repos);
       this.profile = repos;
     })

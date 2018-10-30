@@ -1,56 +1,55 @@
+<div class="container">
 <form action=""class="search-form">
-  <div>class="form-group"
-  <input type="text" class="form-control" placeholder="search git users with username"[(ngModel)]="username" name="username"(keyup)="findProfile()">
+  <div class="form-group">
+  <input type="text" class="form-control" placeholder="search git users with username" name="username"(keyup)="findProfile()">
 </div>
 </form>
 
-<div>*ngIf="profile">
-  <div>class="panel-default">
-    <div> class="panel-heading">
-      ({profile.name}) <small>({{profile.login}})</small>
-        <span>*ngIf="profile.company">, works at {{profile.company}}</span>
+<div *ngIf="profile">
+  <div class="panel-default">
+    <div class="panel-heading">
+      {{profile.name}} <small>{{profile.login}}</small>
+        <span *ngIf="profile.company">, works at {{profile.company}}</span>
           {{profile.location}}
-
+      </div>
     </div>
+</div>
 
-        <div> class="panel-body">
-          <div> class="row">
-              <div> class="col-sm-3">
+        <div class="panel-body">
+          <div class="row">
+              <div class="col-sm-3">
                  <img src="{{profile.avatar_url}}" class="img-circle img-responsive" alt="Profile Image">
-
+              </div> 
+            </div>
            </div>
-                  <div> class="col-sm-5">
-                    <ul>class="list-group">
-                      <li>class="list-group-item" *ngIf="profile.bio">{{profile.bio}}</li>
-                      <li>class="list-group-item" *ngIf="profile.email">{{profile.email}}</li>
+
+                  <div class="col-sm-5">
+                    <ul class="list-group">
+                      <li class="list-group-item" *ngIf="profile.bio">{{profile.bio}}</li>
+                      <li class="list-group-item" *ngIf="profile.email">{{profile.email}}</li>
                     </ul>
 
                   </div>
-                  <div> class="col-sm-4">
-                    <div>
+
+                  <div class="col-sm-4">
                       <p>
-                        <span>class="label label-success">{{profile.followers}}Followers</span>
-                        <span>class="label label-default">{{profile.following}}Following</span>
-                        <span>class="label label-primary">{{profile.Public_gists}}Public_gists</span>
-                        <span>class="label label-danger">{{profile.public_repos}}Public Repo</span>
+                        <span class="badge badge-success">{{profile.followers}}Followers</span>
+                        <span class="badge badge-default">{{profile.following}}Following</span>
                       
-                      
-                      
+                        <span class="badge badge-danger">{{profile.public_repos}}Public Repo</span>
                       </p>
                       <p><a href="{{profile.html_url}}" target="_blank"class="btn btn-success btn-sm">view profile on git hub </a></p>
+                  </div>
+
                   <div class="panel panel-default">
                     <div class="panel-heading">
-                      <h3>class="panel-title">Repost</h3>
-
+                      <h3 class="panel-title">Repos</h3>
                     </div>
-                  <div> class= "panel-body" *ngFor="let repo of repos"</div>
+                  <div class= "panel-body" *ngFor="let repo of repos"> 
                   <p>class="clearfix"</p>
-                  <p>{{repo.name}} <a href="{{repo.html_url}}">view this project on github</a>
-
-                  </p>
+                  <p>{{repo.name}} <a href="{{repo.html_url}}">view this project on github</a></p>
                   <p>{{repo.description}}</p>
                 </div>
-            </div>
-        </div>
-    </div>
-</div>
+              </div>
+           </div>
+              
