@@ -6,7 +6,7 @@
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
 ### License
 Copyright (c)Copyright {2018} **{David Ngatia}**
 
@@ -86,6 +86,11 @@ Please read this [comprehensive guide](https://opensource.guide/how-to-contribut
 
 ## Support and contact details
 Contact [David Ngatia](machngatia@gmail.com) for further help/support
+
+##Further Help
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
 
 ### License
 MIT
