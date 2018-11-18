@@ -1,19 +1,4 @@
 
-# GitSearch
-
-.
-#Developer
-David Ngatia
-
-
-
-
-## Technologies Used
-{I used Angular CLI, Terminal and Visual Studio.}
-## Support and contact details
-{ Any issues or questions, ideas or concerns,or a contribution to the code. feel free to contact me through my email address; machngatia@gmail.com}
-
-
 
 
 
