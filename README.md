@@ -6,7 +6,7 @@ David Ngatia
 This is a website where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories
 
 ## Behavior Driven Development
-* If you type a name in the search bar, all the repos with that same name will be displayed.
+If you type a name in the search bar, all the repos with that same name will be displayed.
 
 ## Development server
 
