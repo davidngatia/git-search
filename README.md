@@ -1,29 +1,76 @@
 
 # GitSearch
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.5.
+.
 #Developer
 David Ngatia
 
-#### {this is a Triangle Tracker},{10th August 2018}
-#### By **{David Ngatia}**
-## Description
-This is a website where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories
-## Behavior Driven Development
-* If you type a name in the search bar, all the repos with that same name will be displayed.
+
+
+
 ## Technologies Used
 {I used Angular CLI, Terminal and Visual Studio.}
 ## Support and contact details
 { Any issues or questions, ideas or concerns,or a contribution to the code. feel free to contact me through my email address; machngatia@gmail.com}
 
+
+
+
+
+
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### License
+Copyright (c)Copyright {2018} **{David Ngatia}**
+
+
+
+# GIT SEARCH
+##Developer
+David Ngatia
+
+## Description
+This is a website where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories
+
+## Behavior Driven Development
+* If you type a name in the search bar, all the repos with that same name will be displayed.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-##Github link
-https://github.com/davidngatia/git-search.git
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+##link Deployed Site
+https://github.com/davidngatia/git-search.git
+
+## Table of content
+1. [Description](#description)
+2. [API endpoints](#endpoints)
+3. [Setup and installations](#setup-and-installations)
+4. [Deployment](#deployment)
+5. [Contributing](#contributing)
+6. [Bugs](#bugs)
+7. [Contact me](#support-and-contact-details)
+8. [Licensing](#license)
+
+
+## Setup and installations
+
+#### Prerequisites
+1. [Python3.6](https://www.python.org/downloads/)
+2. [Postgres](https://www.postgresql.org/download/)
+3. [virtualenv](https://virtualenv.pypa.io/en/stable/installation/)
+4. [Pip](https://pip.pypa.io/en/stable/installing/)
+5. 
+
+#### Technologies used
+    - Angular CLI(https://github.com/angular/angular-cli) version 6.2.5
+    - HTML
+    - Bootstrap 4
+    - 
+
 
 ## Build
 
@@ -37,8 +84,25 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+#### Run the app
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+
+## Contributing
+Please read this [comprehensive guide](https://opensource.guide/how-to-contribute/) on how to contribute. Pull requests are welcome :-)
+
+## Bugs
+#### Known bugs
+ - none yet
+
+
+## Support and contact details
+Contact [David Ngatia](machngatia@gmail.com) for further help/support
+
 ### License
-Copyright (c)Copyright {2018} **{David Ngatia}**
+MIT
+
+Copyright (c)2018 **David Ngatia**
