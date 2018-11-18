@@ -1,17 +1,3 @@
-
-
-
-
-
-
-## Further help
-
-
-### License
-Copyright (c)Copyright {2018} **{David Ngatia}**
-
-
-
 # GIT SEARCH
 ##Developer
 David Ngatia
@@ -41,20 +27,14 @@ https://github.com/davidngatia/git-search.git
 8. [Licensing](#license)
 
 
-## Setup and installations
-
 #### Prerequisites
-1. [Python3.6](https://www.python.org/downloads/)
-2. [Postgres](https://www.postgresql.org/download/)
-3. [virtualenv](https://virtualenv.pypa.io/en/stable/installation/)
-4. [Pip](https://pip.pypa.io/en/stable/installing/)
-5. 
+1. - [Angular CLI](https://github.com/angular/angular-cli) version 6.2.5
+
 
 #### Technologies used
-    - Angular CLI(https://github.com/angular/angular-cli) version 6.2.5
+    - Angular CLI
     - HTML
     - Bootstrap 4
-    - 
 
 
 ## Build
@@ -71,6 +51,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 
 #### Run the app
+ng serve
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
